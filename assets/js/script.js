@@ -60,5 +60,11 @@ function round() {
   let roundResult = playRound(playerSelection, computerSelection);
 
   resultado.innerHTML = `Elegiste ${playerSelection} <br>La computadora elige ${computerSelection}<br>${roundResult}`;
+  displayScore();
 }
-
+function displayScore() {
+  let playerScoreDiv = document.getElementById("playerScore") 
+  let computerScoreDiv = document.getElementById("computerScore")
+  playerScoreDiv.textContent = playerScore
+  computerScoreDiv.textContent = computerScore
+}

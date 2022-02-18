@@ -26,16 +26,16 @@
     <main>
         <div class="container w-75">
             <div class="row">
-                <div id="player" class="col-2 d-flex flex-column">
+                <div id="player" class="col-2 d-flex flex-column align-items-center">
                     <div class="container">
                         <button class="btn btn-outline-dark my-1"><i id="playerPiedra"
-                                class="far fa-hand-rock fa-5x"></i></button>
+                                class="far fa-hand-rock fa-3x"></i></button>
                         <button class="btn btn-outline-dark my-1"><i id="playerPapel"
-                                class="far fa-hand-paper fa-5x"></i></button>
+                                class="far fa-hand-paper fa-3x"></i></button>
                         <button class="btn btn-outline-dark my-1"><i id="playerTijera"
-                                class="far fa-hand-scissors fa-5x"></i></button>
+                                class="far fa-hand-scissors fa-3x"></i></button>
                     </div>
-                    <div class="playerScore"></div>
+                    <div id="playerScore" class="text-center display-5 container"></div>
                 </div>
                 <div class="col-8 text-center fs-1">
                     <p id="resultado"></p>
@@ -43,13 +43,13 @@
                 <div class="col-2 d-flex flex-column">
                     <div class="container">
                         <button class="btn btn-outline-dark my-1" disabled><i id="computerPiedra"
-                                class="far fa-hand-rock fa-5x"></i></button>
+                                class="far fa-hand-rock fa-3x"></i></button>
                         <button class="btn btn-outline-dark my-1" disabled><i id="computerPapel"
-                                class="far fa-hand-paper fa-5x"></i></button>
+                                class="far fa-hand-paper fa-3x"></i></button>
                         <button class="btn btn-outline-dark my-1" disabled><i id="computerTijeras"
-                                class="far fa-hand-scissors fa-5x"></i></button>
+                                class="far fa-hand-scissors fa-3x"></i></button>
                     </div>
-                    <div class="computerScore"></div>
+                    <div id="computerScore" class="text-center display-5 container-fluid"></div>
                 </div>
             </div>
         </div>
